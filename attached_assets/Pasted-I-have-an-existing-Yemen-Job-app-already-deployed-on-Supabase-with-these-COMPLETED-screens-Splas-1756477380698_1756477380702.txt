@@ -1,0 +1,67 @@
+I have an existing Yemen Job app already deployed on Supabase with these COMPLETED screens:
+- Splash Screen
+- Onboarding Flow  
+- Login Screen
+- Registration Screen
+- Job Feed Home
+
+Connect to my existing Supabase project and complete only these MISSING screens without rebuilding the entire app:
+
+1. JOB SEARCH SCREEN:
+- Advanced search form with filters (location, category, job type, salary range)
+- Real-time search results from existing Supabase jobs table
+- Filter chips and sorting options (newest, salary, relevance)
+- Search history and saved searches functionality
+- Connect to existing database schema
+
+2. JOB DETAIL SCREEN:
+- Display full job information from Supabase jobs table
+- Company details, requirements, benefits sections
+- Apply button with authentication check
+- Save job to favorites functionality
+- Share job feature and similar jobs recommendations
+
+3. JOB APPLICATION SCREEN:
+- Application form with CV upload to Supabase storage
+- Cover letter text area
+- Submit application to existing applications table
+- Success/error handling with user feedback
+- Application status tracking integration
+
+4. APPLICATIONS TRACKING SCREEN:
+- Display user's submitted applications from Supabase
+- Application status indicators (pending, viewed, rejected, accepted)
+- Filter applications by status and date
+- Withdraw application option
+- Application details view
+
+5. USER PROFILE SCREEN:
+- Edit profile form connected to existing users table
+- CV upload/update functionality
+- Skills management and location settings
+- Account preferences and notification settings
+- Delete account option
+
+6. COMPANY PROFILE SCREEN:
+- Company information display from existing companies table
+- Company jobs listing
+- Contact information and social links
+- Company verification badge system
+- Edit company details (for employers only)
+
+7. EMPLOYER DASHBOARD SCREEN:
+- Posted jobs management from existing jobs table
+- Applications received for each job posting
+- Applicant profiles and CV downloads
+- Job posting statistics and views
+- Post new job quick action
+
+TECHNICAL REQUIREMENTS:
+- Use existing Supabase configuration and database schema
+- Maintain existing authentication flow and user sessions
+- Connect to current tables: users, jobs, applications, companies
+- Keep existing design system and color scheme (sky blue theme)
+- Ensure RTL Arabic support across all new screens
+- Add proper navigation between existing and new screens
+
+Do NOT recreate or modify existing completed screens. Only build the 7 missing screens and integrate them with the current working app structure.
